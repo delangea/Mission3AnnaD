@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Anna's Mission 2 Assignment</title>
+    <link rel="icon" href="img/websiteicon.png">
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1 class="text-center">Anna DeLange</h1>
+    </header>
+    <div class="d-flex justify-content-center w-75 mx-auto mt-4">
+        <img src="img/IMG_3792.JPG" width="300"/>
+        <div class="d-flex flex-column offset-sm-1 mt-3">
+            <div>
+                <h3>What I Hope to Get Out of This Class</h3>
+                <p class=" w-75">
+                    I have learned C# and ASP.net before at work, so I am really just hoping to gain more familiarity with
+                    the framework and learn it formally. I learned it previously just as a way to start developing, but I know
+                    that there are a lot of technical aspects that I never learned. Additionally, there are things I learned
+                    that I'm sure there are easier ways of doing that I would love to improve on.
+                </p>
+            </div>
+            <div>
+                <h3>My Top 3 Jobs:</h3>
+                <ol>
+                    <li>Full Stack Developer</li>
+                    <li>UI/UX Designer</li>
+                    <li>Software Engineer</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <h3 class="text-center"> Grade Calculator:</h3>
+    <p class="text-center">Enter your grade percentages by category to receieve your final score.</p>
+    <div class="d-flex justify-content-center">
+        <form class="mx-auto">
+            <div class="formgrid my-3">
+                <span>Assigments:</span>
+                <input id="assignments" class="form-control" type="number" min="0" />
+                <span>Group Projects:</span>
+                <input id="projects" class="form-control" type="number" min="0" />
+                <span>Quizzes:</span>
+                <input id="quizzes" class="form-control" type="number" min="0"/>
+                <span>Exams:</span>
+                <input id="exams" class="form-control" type="number" min="0" />
+                <span>Intex:</span>
+                <input id="intex" class="form-control" type="number" min="0" />
+            </div>
+            <div class="d-flex justify-content-center">
+                <input class="btn btn-primary mx-auto" type="button" value="Submit" id="submitBtn" />
+            </div>
+        </form>
+    </div>
+
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

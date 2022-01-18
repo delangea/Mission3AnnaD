@@ -1,0 +1,7 @@
+﻿.formgrid{
+    display: grid;
+    grid-template-columns: 10rem 20rem;
+    grid-template-rows: auto;
+    grid-column-gap: 1rem;
+    grid-row-gap: .5rem;
+}
