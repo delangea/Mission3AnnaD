@@ -44,4 +44,5 @@
 		grade = "E";
     }
 	alert("Your final percentage is " + totalPct + ". Your final grade will be a " + grade);
+	document.getElementById('form').submit();
 });

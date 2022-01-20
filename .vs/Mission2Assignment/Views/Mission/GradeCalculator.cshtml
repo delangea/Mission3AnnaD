@@ -8,7 +8,7 @@
 <h3 class="text-center"> Grade Calculator:</h3>
 <p class="text-center">Enter your grade percentages by category to receieve your final score.</p>
 <div class="d-flex justify-content-center">
-    <form class="mx-auto" method="post">
+    <form class="mx-auto" method="post" id="form">
         <div class="formgrid my-3">
             <span>Assigments:</span>
             <input id="assignments" class="form-control" type="number" min="0" asp-for="Assignments" />
@@ -22,10 +22,10 @@
             <input id="intex" class="form-control" asp-for="INTEX" type="number" min="0" />
         </div>
         <div class="d-flex justify-content-center">
-            <input class="btn btn-primary mx-auto" type="submit" value="Submit" id="submitBtn" />
+            <input class="btn btn-primary mx-auto" type="button" value="Submit" id="submitBtn" />
         </div>
         <div asp-validation-summary="All"></div>
     </form>
 </div>
-
+<script src="~/lib/jquery/jquery-3.6.0.min.js"></script>
 <script src="~/js/index.js"></script>
